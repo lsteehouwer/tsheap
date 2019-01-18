@@ -1,0 +1,2 @@
+# tsHeap
+Implementation of a heap datastructure in Typescript. Supports both min-heaps and max-heaps.
