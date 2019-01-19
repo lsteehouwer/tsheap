@@ -8,8 +8,8 @@ The following example creates a min-heap of numbers.
 ```typescript
 let heap = new Heap<number>( (lhs, rhs) => {
     if(lhs == rhs) return 0;
-    else if(lhs < rhs) return 1;
-    else return -1;
+    else if(lhs < rhs) return -1;
+    else return 1;
 });
 ```
 To make it max-heap, just flip the `1` and `-1` in the comparison function.
