@@ -5,7 +5,7 @@ Implementation of a heap datastructure in Typescript. Supports both min-heaps an
 A heap is an Implementation of a priority queue. You can insert any sort of object in the heap, so long all the elements are off the same type. You need to supply a comparison function that is used for restoring the heap property.
 
 The following example creates a min-heap of numbers.
-```typescrpt
+```typescript
 let heap = new Heap<number>( (lhs, rhs) => {
     if(lhs == rhs) return 0;
     else if(lhs < rhs) return 1;
